@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import sys
 
 def py2_or_py3():
@@ -8,7 +9,7 @@ def py2_or_py3():
     """
     major = sys.version_info.major
     if major < 3:
-        print('お使いのPythonのバージョンは2系です。')
+        print('Your python version is 2.x.')
     else:
         print('お使いのPythonのバージョンは3系です。')
 
